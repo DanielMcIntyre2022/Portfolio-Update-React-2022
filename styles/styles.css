@@ -1,0 +1,468 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+figcaption,
+figure,
+main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+audio,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details,
+menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.nav-container {
+  text-align: center;
+}
+
+.name-logo {
+  text-transform: uppercase;
+  font-family: "Noticia Text";
+  font-weight: 700;
+  font-size: 2rem;
+  border: 2px solid black;
+  margin-top: 30px;
+  padding-top: 10px;
+  text-decoration: underline;
+  padding-bottom: 5px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-bar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  -webkit-column-gap: 5%;
+     -moz-column-gap: 5%;
+          column-gap: 5%;
+  white-space: nowrap;
+}
+
+.nav-bar li {
+  list-style: none;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  width: 75px;
+  display: inline-block;
+}
+
+.header-container {
+  background-image: url(../../../assets/cool-space.jpg);
+  height: clamp(50px, 47.1875vw, 570px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10px;
+}
+
+.header-container h4 {
+  color: white;
+  margin-top: -20px;
+  font-style: italic;
+}
+
+.header-container h1 {
+  color: white;
+  text-underline-position: under;
+  text-transform: uppercase;
+}
+
+h4::after {
+  content: "";
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  -webkit-transform: translate(-190px);
+          transform: translate(-190px);
+  margin-top: 25px;
+}
+
+.header-button {
+  background-color: transparent;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.skills-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills-container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-container h4 {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.skills-title {
+  width: 25%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.my-work-divider-container {
+  background-image: url(../../../assets/toronto-background-final.jpg);
+  height: clamp(50px, 47.1875vw, 400px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.my-work-divider-container h2 {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.my-work-button {
+  background-color: transparent;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -30px;
+}
+
+#about-me h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-me-container {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+.about-pic img {
+  height: 50vh;
+}
+
+.about-text {
+  padding-left: 30px;
+}

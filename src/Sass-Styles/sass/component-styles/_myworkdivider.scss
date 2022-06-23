@@ -1,0 +1,29 @@
+.my-work-divider-container {
+  background-image: url(../../../assets/toronto-background-final.jpg);
+  height: clamp(50px, 755 / 1600 * 100vw, 400px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.my-work-divider-container h2 {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.my-work-button {
+  background-color: transparent;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: -30px;
+}

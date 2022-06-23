@@ -1,0 +1,44 @@
+.header-container {
+  background-image: url(../../../assets/cool-space.jpg);
+  height: clamp(50px, 755 / 1600 * 100vw, 570px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.header-container h4 {
+  color: white;
+  margin-top: -20px;
+  font-style: italic;
+}
+
+.header-container h1 {
+  color: white;
+  text-underline-position: under;
+  text-transform: uppercase;
+}
+h4::after {
+  content: "";
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  transform: translate(-190px);
+  margin-top: 25px;
+}
+
+.header-button {
+  background-color: transparent;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 10px;
+}

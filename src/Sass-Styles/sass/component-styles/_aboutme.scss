@@ -1,0 +1,22 @@
+#about-me h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.about-me-container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-pic img {
+  height: 50vh;
+}
+
+.about-text {
+  padding-left: 30px;
+}

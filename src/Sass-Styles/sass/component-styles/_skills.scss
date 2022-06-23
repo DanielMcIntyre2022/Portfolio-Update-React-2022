@@ -1,0 +1,26 @@
+.skills-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skills-container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills-container h4 {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.skills-title {
+  width: 25%;
+  justify-content: center;
+  text-align: center;
+}
