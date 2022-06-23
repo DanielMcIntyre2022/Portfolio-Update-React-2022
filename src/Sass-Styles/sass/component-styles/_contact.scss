@@ -1,0 +1,40 @@
+.contact-container {
+  display: flex;
+  width: 80%;
+}
+
+.contact-text p {
+  color: grey;
+}
+
+.contact-left-side {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.contact-title h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contact-title h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-logos {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-logos svg {
+  border: 1px solid black;
+  font-size: 3.5rem;
+  border-radius: 90px;
+  padding: 10px;
+}
+
+.contact-logos p {
+  color: grey;
+}

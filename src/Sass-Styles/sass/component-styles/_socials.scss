@@ -1,0 +1,22 @@
+.socials-container {
+  background-image: url(../../../assets/camping-night.jpg);
+  height: clamp(50px, 755 / 1600 * 100vw, 250px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: center;
+}
+
+.socials-container svg {
+  color: white;
+  font-size: 5rem;
+  padding: 15px;
+}

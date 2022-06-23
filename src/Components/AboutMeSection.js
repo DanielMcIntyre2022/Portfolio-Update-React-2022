@@ -11,7 +11,7 @@ function AboutMeSection() {
             </div>
             <div className="about-wrapper">
                 <div class="about-text">
-                        <span id="capitlized">M</span> y name is Daniel McIntyre and I am a front-end web developer!
+                        <p><span id="capitlized">M</span>y name is Daniel McIntyre and I am Web Developer!</p>
                         <p>My tech-stack includes HTML5,
                             CSS/SCSS, JavaScript (ES6)
                             and React as well as experience implementing REST APIs and Firebase databases in
@@ -29,6 +29,10 @@ function AboutMeSection() {
                         <p>I thrive in challenging environments, and I am extremely passionate about furthering my
                             skills in web development. This
                             includes building innovative and exciting solutions in a collaborative team environment.</p>
+                        <button>
+                            <a href="assets/Daniel_McIntyre_Resume_2022.pdf">
+                                View Resume </a>
+                        </button>
                     </div>
                 </div>
             </div>

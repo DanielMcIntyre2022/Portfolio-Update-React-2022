@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .about-pic img {
@@ -19,4 +20,20 @@
 
 .about-text {
   padding-left: 30px;
+}
+
+.about-text p {
+  color: grey;
+}
+
+.about-text button {
+  background-color: black;
+  width: 30%;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.about-text button a {
+  color: white;
 }

@@ -1,0 +1,17 @@
+.testimonals-container {
+  background-image: url(../../../assets/code-two.jpg);
+  height: clamp(50px, 755 / 1600 * 100vw, 300px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -10px;
+}
+
+.testimonals-container p {
+  color: white;
+}

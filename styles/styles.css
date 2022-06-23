@@ -370,7 +370,7 @@ h4::after {
 }
 
 .skills-container {
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -386,6 +386,9 @@ h4::after {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .skills-container h4 {
@@ -394,11 +397,22 @@ h4::after {
 }
 
 .skills-title {
-  width: 25%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  border-top: solid grey 1px;
+  padding: 15px;
+  margin: 10px;
+  width: 20%;
+}
+
+.skills-title svg {
+  font-size: 3.5rem;
+}
+
+.skills-title p {
+  color: grey;
 }
 
 .my-work-divider-container {
@@ -457,6 +471,7 @@ h4::after {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .about-pic img {
@@ -465,4 +480,140 @@ h4::after {
 
 .about-text {
   padding-left: 30px;
+}
+
+.about-text p {
+  color: grey;
+}
+
+.about-text button {
+  background-color: black;
+  width: 30%;
+  text-transform: uppercase;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.about-text button a {
+  color: white;
+}
+
+.socials-container {
+  background-image: url(../../../assets/camping-night.jpg);
+  height: clamp(50px, 47.1875vw, 250px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.socials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socials-container svg {
+  color: white;
+  font-size: 5rem;
+  padding: 15px;
+}
+
+.recent-work-wrapper h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.work-container {
+  width: 80%;
+}
+
+.work-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid grey;
+  margin-bottom: 350px;
+}
+
+.testimonals-container {
+  background-image: url(../../../assets/code-two.jpg);
+  height: clamp(50px, 47.1875vw, 300px);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  margin-top: -25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -10px;
+}
+
+.testimonals-container p {
+  color: white;
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+.contact-text p {
+  color: grey;
+}
+
+.contact-left-side {
+  width: 50%;
+  margin-left: 10%;
+}
+
+.contact-title h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contact-title h4 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contact-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-logos svg {
+  border: 1px solid black;
+  font-size: 3.5rem;
+  border-radius: 90px;
+  padding: 10px;
+}
+
+.contact-logos p {
+  color: grey;
 }
