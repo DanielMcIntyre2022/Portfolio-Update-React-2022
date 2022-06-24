@@ -269,6 +269,41 @@ html {
   overflow: hidden;
 }
 
+@media (max-width: 1068px) {
+  .about-me-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .about-pic img {
+    width: 350px;
+  }
+
+  .about-text {
+    width: 120%;
+    padding-left: 50px;
+    margin-left: -10%;
+  }
+}
+@media (max-width: 887px) {
+  .contact-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .contact-container .contact-text {
+    width: 250%;
+    padding-left: 20px;
+  }
+
+  .contact-container .contact-right-side form {
+    width: 200%;
+  }
+}
 .nav-container {
   text-align: center;
   font-family: "Noticia Text";
@@ -372,7 +407,7 @@ h4::after {
 }
 
 .skills-container {
-  width: 75%;
+  width: 79%;
   margin: 0 auto;
   font-family: "Noticia Text";
 }
@@ -411,14 +446,11 @@ h4::after {
 }
 
 .skills-title {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-align: center;
   border-top: solid grey 1px;
   padding: 15px;
   margin: 10px;
-  width: 20%;
+  width: 200px;
 }
 
 .skills-title svg {
@@ -502,8 +534,16 @@ h4::after {
   font-family: "Noticia Text";
 }
 
+#capitlized {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+}
+
 .about-pic img {
   height: 50vh;
+  border-radius: 10px;
+  border: solid black 2px;
 }
 
 .about-text {
@@ -550,7 +590,7 @@ h4::after {
 
 .socials-container svg {
   color: white;
-  font-size: 5rem;
+  font-size: 6rem;
   padding: 15px;
 }
 
@@ -579,9 +619,10 @@ h4::after {
 
 .work-carousel {
   border: 1px solid grey;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   margin-bottom: 40px;
+  padding: 30px;
 }
 
 .work-image {
@@ -590,6 +631,7 @@ h4::after {
 
 .work-image img {
   height: 50vh;
+  width: 50%;
 }
 
 .testimonals-container {
@@ -634,6 +676,8 @@ h4::after {
   color: white;
   text-transform: uppercase;
   margin-top: -50px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .contact-wrapper {

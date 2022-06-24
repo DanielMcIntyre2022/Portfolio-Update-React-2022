@@ -17,9 +17,9 @@ function App() {
       < SkillsSection />
       < MyWorkDivider />
       < AboutMeSection />
-      < SocialsComponent />
-      < RecentWork />
       < TestimonalsSection />
+      < RecentWork />
+      < SocialsComponent />
       < ContactSection />
     </div>
   );

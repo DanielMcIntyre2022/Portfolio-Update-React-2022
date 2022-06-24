@@ -22,9 +22,10 @@
 
 .work-carousel {
   border: 1px solid grey;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   margin-bottom: 40px;
+  padding: 30px;
 }
 
 .work-image {
@@ -33,4 +34,5 @@
 
 .work-image img {
   height: 50vh;
+  width: 50%;
 }
