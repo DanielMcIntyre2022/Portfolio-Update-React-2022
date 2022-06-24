@@ -1,15 +1,25 @@
+.recent-work-wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .recent-work-wrapper h2 {
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
 }
 
-.work-container {
-  width: 80%;
+.work-carousel {
+  border: 1px solid grey;
+  height: 50vh;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
-.work-carousel {
-  display: flex;
-  border: 1px solid grey;
-  margin-bottom: 350px;
+.work-image {
+  width: 100%;
+}
+
+.work-image img {
+  height: 50vh;
 }

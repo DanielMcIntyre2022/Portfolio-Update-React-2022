@@ -8,11 +8,8 @@
   margin-top: -25px;
   justify-content: center;
   margin-top: 15px;
-}
-
-.socials-list {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .socials-container svg {
