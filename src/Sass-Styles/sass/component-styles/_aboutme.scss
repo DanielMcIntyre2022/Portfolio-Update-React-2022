@@ -1,7 +1,17 @@
 #about-me h2 {
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
+  font-family: $site-font;
+}
+
+#about-me h2::after {
+  content: "";
+  height: 5px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  transform: translate(-75px);
+  margin-top: 40px;
 }
 
 .about-me-container {
@@ -12,6 +22,7 @@
   align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  font-family: $site-font;
 }
 
 .about-pic img {
@@ -36,4 +47,5 @@
 
 .about-text button a {
   color: white;
+  text-decoration: none;
 }

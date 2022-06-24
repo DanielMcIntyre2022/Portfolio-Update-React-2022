@@ -1,4 +1,5 @@
 import headshot from '../assets/daniel-mcintyre-headshot.jpg';
+import resume from '../assets/Daniel_McIntyre_Resume_2022.pdf';
 
 function AboutMeSection() {
 
@@ -30,8 +31,8 @@ function AboutMeSection() {
                             skills in web development. This
                             includes building innovative and exciting solutions in a collaborative team environment.</p>
                         <button>
-                            <a href="assets/Daniel_McIntyre_Resume_2022.pdf">
-                                View Resume </a>
+                            <a href={resume}>
+                                View Resume</a>
                         </button>
                     </div>
                 </div>

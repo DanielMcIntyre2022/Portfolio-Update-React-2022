@@ -2,7 +2,7 @@ import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
 import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub } from 'react-icons/fa';
-import { DiResponsive } from 'react-icons/di';
+import { IoIosPhonePortrait } from 'react-icons/io';
 
 function SkillsSection() {
 
@@ -59,7 +59,7 @@ function SkillsSection() {
               <p>Utilizes command line interface to perform to navigate effectively and efficiently through files. </p>
             </div>
             <div className="skills-title responsive">
-                    <DiResponsive/><h4>Responsive</h4>
+                    <IoIosPhonePortrait/><h4>Responsive</h4>
               <p>Builds fully responsive websites for desktop, tablet and mobile devices.</p>
             </div>
             <div className="skills-title accessiblity">

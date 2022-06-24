@@ -1,12 +1,23 @@
 .recent-work-wrapper {
   width: 75%;
   margin: 0 auto;
+  font-family: $site-font;
 }
 
 .recent-work-wrapper h2 {
   text-transform: uppercase;
   text-align: center;
-  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.recent-work-wrapper h2::after {
+  content: "";
+  height: 5px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  transform: translate(-100px);
+  margin-top: 40px;
 }
 
 .work-carousel {

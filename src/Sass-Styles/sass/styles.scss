@@ -1,5 +1,10 @@
+// application general styles //
+
 @import "./partials/setup";
-@import "./partials/typography.scss";
+@import "./partials/typography";
+@import "./partials/mediaqueries";
+
+// component styles //
 
 @import "./component-styles/navbar";
 @import "./component-styles/header";
