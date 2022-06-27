@@ -21,6 +21,7 @@ function App() {
       < RecentWork />
       < SocialsComponent />
       < ContactSection />
+
     </div>
   );
 }

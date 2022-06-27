@@ -36,7 +36,17 @@
   border-top: solid grey 1px;
   padding: 15px;
   margin: 10px;
-  width: 200px;
+  width: 20%;
+  transition: all 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+
+.skills-title:hover {
+  transform: scale(1.2);
+  color: #6699ff;
 }
 
 .skills-title svg {
