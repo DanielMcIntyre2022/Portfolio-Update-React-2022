@@ -20,6 +20,12 @@
   margin-top: 40px;
 }
 
+.recent-work-wrapper .slick-dots li button:before {
+  color: black;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
 .work-carousel {
   border: 1px solid grey;
   height: 60vh;

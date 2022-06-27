@@ -36,6 +36,31 @@
   }
 }
 
+// testimonals-section //
+
+@media (max-width: 861px) {
+  .testimonals-container p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 596px) {
+  .testimonals-container p {
+    font-size: 0.8rem;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .testimonals-container img {
+    height: 5vh !important;
+  }
+}
+
+@media (max-width: 502px) {
+  .testimonals-container p {
+    font-size: 0.7rem;
+  }
+}
+
 // contact-section //
 
 @media (max-width: 1060px) {

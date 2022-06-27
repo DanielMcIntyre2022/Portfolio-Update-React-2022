@@ -304,6 +304,27 @@ html {
     margin-left: 32.5%;
   }
 }
+@media (max-width: 861px) {
+  .testimonals-container p {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 596px) {
+  .testimonals-container p {
+    font-size: 0.8rem;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+
+  .testimonals-container img {
+    height: 5vh !important;
+  }
+}
+@media (max-width: 502px) {
+  .testimonals-container p {
+    font-size: 0.7rem;
+  }
+}
 @media (max-width: 1060px) {
   .contact-container {
     -webkit-box-orient: vertical;
@@ -568,7 +589,7 @@ h4::after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 50px;
   font-family: "Noticia Text";
 }
@@ -580,7 +601,7 @@ h4::after {
 }
 
 .about-pic img {
-  height: 50vh;
+  height: 300px;
   border-radius: 10px;
   border: solid black 2px;
 }
@@ -656,6 +677,12 @@ h4::after {
   margin-top: 40px;
 }
 
+.recent-work-wrapper .slick-dots li button:before {
+  color: black;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
 .work-carousel {
   border: 1px solid grey;
   height: 60vh;
@@ -672,8 +699,7 @@ h4::after {
 
 .testimonals-container {
   background-image: url(../../../assets/code-two.jpg);
-  height: clamp(50px, 47.1875vw, 300px);
-  width: 100%;
+  height: clamp(50px, 47.1875vw, 320px);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -692,11 +718,11 @@ h4::after {
 
 .testimonals-container h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: -20px;
 }
 
-.testimonals-container h1::after {
+.testimonals-one-container h1::after {
   content: "";
   height: 5px;
   width: 30px;
@@ -710,8 +736,7 @@ h4::after {
 
 .testimonals-container p {
   color: white;
-  text-transform: uppercase;
-  margin-top: -50px;
+  margin-top: -90px;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -722,6 +747,12 @@ h4::after {
   border: solid white 2px;
   margin: 0 auto;
   border-radius: 90%;
+}
+
+.testimonals-container .slick-dots li button:before {
+  color: white;
+  font-size: 1rem;
+  margin-top: 5px;
 }
 
 .contact-wrapper {

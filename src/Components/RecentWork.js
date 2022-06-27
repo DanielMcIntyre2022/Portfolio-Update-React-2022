@@ -12,7 +12,7 @@ function RecentWork() {
       slidesToScroll: 1,
         autoplay: true,
         speed: 2000,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 7000,
       cssEase: "linear"
     };
 

@@ -1,7 +1,6 @@
 .testimonals-container {
   background-image: url(../../../assets/code-two.jpg);
-  height: clamp(50px, 755 / 1600 * 100vw, 300px);
-  width: 100%;
+  height: clamp(50px, 755 / 1600 * 100vw, 320px);
   background-size: cover;
   position: relative;
   text-align: center;
@@ -13,11 +12,11 @@
 
 .testimonals-container h1 {
   color: white;
-  font-size: 4rem;
+  font-size: 5rem;
   margin-top: -20px;
 }
 
-.testimonals-container h1::after {
+.testimonals-one-container h1::after {
   content: "";
   height: 5px;
   width: 30px;
@@ -30,8 +29,7 @@
 
 .testimonals-container p {
   color: white;
-  text-transform: uppercase;
-  margin-top: -50px;
+  margin-top: -90px;
   padding-left: 15%;
   padding-right: 15%;
 }
@@ -42,4 +40,10 @@
   border: solid white 2px;
   margin: 0 auto;
   border-radius: 90%;
+}
+
+.testimonals-container .slick-dots li button:before {
+  color: white;
+  font-size: 1rem;
+  margin-top: 5px;
 }
