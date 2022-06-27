@@ -680,21 +680,45 @@ h4::after {
 .recent-work-wrapper .slick-dots li button:before {
   color: black;
   font-size: 1rem;
-  margin-top: 5px;
 }
 
 .work-carousel {
   border: 1px solid grey;
-  height: 60vh;
-  width: 100%;
+  height: 500px;
   margin-bottom: 40px;
-  padding: 30px;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.work-example-pic {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .work-example-pic img {
-  height: 50vh;
-  width: 80%;
-  margin: 0 auto;
+  height: 405px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work-example {
+  width: 100%;
+  padding-left: 65px;
+  margin-top: -15px;
+}
+
+.work-example-one-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.work-example p {
+  color: grey;
 }
 
 .testimonals-container {
