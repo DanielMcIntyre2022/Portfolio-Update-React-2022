@@ -30,10 +30,12 @@ function AboutMeSection() {
                         <p>I thrive in challenging environments, and I am extremely passionate about furthering my
                             skills in web development. This
                             includes building innovative and exciting solutions in a collaborative team environment.</p>
+                        <div className="about-me-button">
                         <button>
                             <a href={resume}>
                                 View Resume</a>
-                        </button>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -292,6 +292,15 @@ html {
   .about-text button {
     margin-top: 20px;
   }
+
+  .about-me-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 @media (max-width: 630px) {
   .testimonals-container p {
