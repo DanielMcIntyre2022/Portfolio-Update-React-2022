@@ -45,8 +45,7 @@ return (
                                         </div>
                                 <div className="project-links">
                                     <ul>
-                                        <li><h3><a href="https://video-diary.netlify.app/">Live Site</a></h3></li>
-                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/MovieMood">Github</a></h3></li>
+                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/MovieMood">Github Repository</a></h3></li>
                                     </ul>
                                 </div>
                              </div>
@@ -74,8 +73,7 @@ return (
                                 </div>
                                 <div className="project-links">
                                     <ul>
-                                        <li><h3><a href="https://giphy-sentiment-39.netlify.app/">Live Site</a></h3></li>
-                                        <li><h3><a href="https://github.com/kwzhang62/project-4-giphy-sentiment">Github</a></h3></li>
+                                        <li><h3><a href="https://github.com/kwzhang62/project-4-giphy-sentiment">Github Repository</a></h3></li>
                                     </ul>
                                 </div>
                                 
@@ -102,8 +100,7 @@ return (
                                 </div>
                                 <div className="project-links">
                                     <ul>
-                                        <li><h3><a href="https://eager-curran-c5f5e6.netlify.app/">Live Site</a></h3></li>
-                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/MovieMood">Github</a></h3></li>
+                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/MovieMood">Github Repository</a></h3></li>
                                     </ul>
                                 </div>
                         </div>
