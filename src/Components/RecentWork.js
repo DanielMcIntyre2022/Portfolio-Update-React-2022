@@ -27,7 +27,7 @@ return (
                    
                  <div className="work-example-container">
                         <div className="work-example-pic">
-                            <a href="https://eager-curran-c5f5e6.netlify.app/"><img src={giphy1} alt="" /></a>
+                            <a href="https://video-diary.netlify.app/"><img src={giphy1} alt="" /></a>
                              <div className="work-example">
                             <h1>Video Diary</h1>
                             <p>An application built in React, Video Diary uses Google's YouTube API and firebase. Fetches and displays the current global trending videos on YouTube. Users can also search for thier desired video and also save them to view later or delete from the page. </p>
@@ -54,7 +54,7 @@ return (
                     </div> 
                         <div className="work-example-container">
                         <div className="work-example-pic">
-                            <a href="https://eager-curran-c5f5e6.netlify.app/"><img src={giphy2} alt="" /></a>
+                            <a href="https://giphy-sentiment-39.netlify.app/"><img src={giphy2} alt="" /></a>
                              <div className="work-example">
                             <h1>Giphy Sentiment</h1>
                             <p>An application built in React, Giphy Sentiment utlizes the Giphy API and Firebase. Users can search for Giphys that matches thier mood and save thier desried gifs to view at a later time. Built with friends Kevin Zhang and David Benitez.</p>
