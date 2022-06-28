@@ -1,5 +1,5 @@
 .recent-work-wrapper {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   font-family: $site-font;
 }
@@ -23,46 +23,56 @@
 .recent-work-wrapper .slick-dots li button:before {
   color: black;
   font-size: 1rem;
+  margin-top: -20px;
 }
 
 .work-carousel {
   border: 1px solid grey;
-  height: 500px;
+  height: 825px;
   margin-bottom: 40px;
   padding-top: 50px;
-  padding-left: 50px;
 }
 
 .work-example-pic {
   width: 90%;
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
 }
 
 .work-example-pic img {
-  height: 405px;
-  width: 100%;
-  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  height: 55vh;
 }
 
 .work-example {
-  width: 100%;
-  padding-left: 65px;
-  margin-top: -15px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -5px;
 }
 
 .work-example-one-container {
   display: flex;
 }
 
+.made-with {
+  text-align: center;
+  margin-top: -10px;
+}
+
 .work-example p {
   color: grey;
+  margin-top: -5px;
 }
 
 .made-with-icons ul {
   display: flex;
-  padding: 10px;
-  margin-left: -10px;
   column-gap: 5%;
+  justify-content: center;
+  padding-left: 0;
+  margin-top: 25px;
 }
 
 .made-with-icons li {
@@ -76,9 +86,10 @@
 .project-links ul {
   display: flex;
   column-gap: 5%;
-  margin-left: -35px;
-  margin-top: -15px;
   text-decoration: underline;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 .project-links a {

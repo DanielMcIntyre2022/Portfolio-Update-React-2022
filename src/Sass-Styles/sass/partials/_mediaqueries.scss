@@ -14,6 +14,7 @@
   }
   .about-pic img {
     width: 350px;
+    margin-top: 20px;
   }
   .about-text {
     width: 120%;
@@ -58,6 +59,38 @@
 @media (max-width: 502px) {
   .testimonals-container p {
     font-size: 0.7rem;
+  }
+}
+
+// my work section //
+
+@media (max-width: 678px) {
+  .work-carousel {
+    height: 850px !important;
+  }
+}
+
+@media (max-width: 610px) {
+  .work-carousel {
+    height: 870px !important;
+  }
+}
+
+@media (max-width: 482px) {
+  .work-carousel {
+    height: 890px !important;
+  }
+}
+
+@media (max-width: 411px) {
+  .work-carousel {
+    height: 910px !important;
+  }
+}
+
+@media (max-width: 379px) {
+  .work-carousel {
+    height: 930px !important;
   }
 }
 

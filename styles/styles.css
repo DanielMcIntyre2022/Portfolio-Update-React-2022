@@ -284,6 +284,7 @@ html {
 
   .about-pic img {
     width: 350px;
+    margin-top: 20px;
   }
 
   .about-text {
@@ -323,6 +324,31 @@ html {
 @media (max-width: 502px) {
   .testimonals-container p {
     font-size: 0.7rem;
+  }
+}
+@media (max-width: 678px) {
+  .work-carousel {
+    height: 850px !important;
+  }
+}
+@media (max-width: 610px) {
+  .work-carousel {
+    height: 870px !important;
+  }
+}
+@media (max-width: 482px) {
+  .work-carousel {
+    height: 890px !important;
+  }
+}
+@media (max-width: 411px) {
+  .work-carousel {
+    height: 910px !important;
+  }
+}
+@media (max-width: 379px) {
+  .work-carousel {
+    height: 930px !important;
   }
 }
 @media (max-width: 1060px) {
@@ -660,7 +686,7 @@ h4::after {
 }
 
 .recent-work-wrapper {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
   font-family: "Noticia Text";
 }
@@ -685,14 +711,14 @@ h4::after {
 .recent-work-wrapper .slick-dots li button:before {
   color: black;
   font-size: 1rem;
+  margin-top: -20px;
 }
 
 .work-carousel {
   border: 1px solid grey;
-  height: 500px;
+  height: 825px;
   margin-bottom: 40px;
   padding-top: 50px;
-  padding-left: 50px;
 }
 
 .work-example-pic {
@@ -700,20 +726,24 @@ h4::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
 }
 
 .work-example-pic img {
-  height: 405px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 85%;
+  margin: 0 auto;
+  height: 55vh;
 }
 
 .work-example {
-  width: 100%;
-  padding-left: 65px;
-  margin-top: -15px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -5px;
 }
 
 .work-example-one-container {
@@ -722,19 +752,28 @@ h4::after {
   display: flex;
 }
 
+.made-with {
+  text-align: center;
+  margin-top: -10px;
+}
+
 .work-example p {
   color: grey;
+  margin-top: -5px;
 }
 
 .made-with-icons ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px;
-  margin-left: -10px;
   -webkit-column-gap: 5%;
      -moz-column-gap: 5%;
           column-gap: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 0;
+  margin-top: 25px;
 }
 
 .made-with-icons li {
@@ -752,9 +791,12 @@ h4::after {
   -webkit-column-gap: 5%;
      -moz-column-gap: 5%;
           column-gap: 5%;
-  margin-left: -35px;
-  margin-top: -15px;
   text-decoration: underline;
+  padding: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
 }
 
 .project-links a {
@@ -821,7 +863,6 @@ h4::after {
 .testimonals-container .slick-dots li button:before {
   color: white;
   font-size: 1rem;
-  margin-top: 5px;
 }
 
 .work-example {
@@ -832,6 +873,10 @@ h4::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+button.slick-arrow {
+  display: none !important;
 }
 
 .contact-wrapper {
