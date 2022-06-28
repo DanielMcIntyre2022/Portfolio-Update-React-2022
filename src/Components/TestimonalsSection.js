@@ -21,7 +21,7 @@ function TestimonalsSection() {
             <Slider {...settings}>
                 <div className="testimonals-one-container">
             <h1>"</h1>
-            <p>Daniel has been great to work with. In the short time that we have worked in a professional setting, Daniel has been an active participant in the non-technical conversations and has taken charge of the technical aspects of our project. He is knowledgeable about his field and is able to effectively work in a team setting and complete deliverables on time. - Bryan Jok, Product Manager, Co.Lab </p>
+            <p>Daniel has been great to work with. He is an active participant in non-technical conversations and has taken charge of the technical aspects of our project. He is knowledgeable about his field and is able to effectively work in a team - Bryan Jok, Product Manager, Co.Lab </p>
                     <img src={headshot1} alt="" />
                 </div>
                 <div className="testimonals-two-container">

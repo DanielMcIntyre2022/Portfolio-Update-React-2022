@@ -294,25 +294,9 @@ html {
     margin-left: 32.5%;
   }
 }
-@media (max-width: 861px) {
+@media (max-width: 630px) {
   .testimonals-container p {
-    font-size: 0.9rem;
-  }
-}
-@media (max-width: 596px) {
-  .testimonals-container p {
-    font-size: 0.8rem;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
-
-  .testimonals-container img {
-    height: 5vh !important;
-  }
-}
-@media (max-width: 502px) {
-  .testimonals-container p {
-    font-size: 0.7rem;
+    font-size: 0.85rem !important;
   }
 }
 @media (max-width: 1060px) {
@@ -804,28 +788,16 @@ h4::after {
   margin-top: -20px;
 }
 
-.testimonals-container h1::after {
-  content: "";
-  height: 5px;
-  width: 30px;
-  background-color: white;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
-  margin-top: 40px;
-}
-
 .testimonals-container p {
   color: white;
-  margin-top: -90px;
+  margin-top: -102px;
   padding-left: 15%;
   padding-right: 15%;
 }
 
 .testimonals-container img {
   width: 7.5%;
-  height: 10vh;
+  height: auto;
   border: solid white 2px;
   margin: 0 auto;
   border-radius: 90%;

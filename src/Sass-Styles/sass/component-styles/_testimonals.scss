@@ -16,27 +16,16 @@
   margin-top: -20px;
 }
 
-.testimonals-container h1::after {
-  content: "";
-  height: 5px;
-  width: 30px;
-  background-color: white;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  margin-top: 40px;
-}
-
 .testimonals-container p {
   color: white;
-  margin-top: -90px;
+  margin-top: -102px;
   padding-left: 15%;
   padding-right: 15%;
 }
 
 .testimonals-container img {
   width: 7.5%;
-  height: 10vh;
+  height: auto;
   border: solid white 2px;
   margin: 0 auto;
   border-radius: 90%;
