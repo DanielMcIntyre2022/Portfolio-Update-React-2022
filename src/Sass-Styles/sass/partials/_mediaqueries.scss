@@ -90,7 +90,7 @@
 
 @media (max-width: 379px) {
   .work-carousel {
-    height: 930px !important;
+    height: 90px !important;
   }
 }
 
@@ -100,18 +100,18 @@
   .contact-container {
     flex-direction: column;
   }
-  .contact-container .contact-text {
-    width: 250%;
-    padding-left: 20px;
-  }
-  .contact-container .contact-right-side form {
-    width: 200%;
+  .contact-left-side {
+    width: 100% !important;
+    padding-right: 0 !important;
+    margin-top: -20px;
   }
 
   @media (max-width: 1068px) {
     .contact-right-side button {
       margin-top: 20px;
-      margin-left: 35%;
+    }
+    .contact-right-side {
+      width: 100% !important;
     }
   }
 }

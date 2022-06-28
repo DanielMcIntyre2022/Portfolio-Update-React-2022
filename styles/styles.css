@@ -348,7 +348,7 @@ html {
 }
 @media (max-width: 379px) {
   .work-carousel {
-    height: 930px !important;
+    height: 90px !important;
   }
 }
 @media (max-width: 1060px) {
@@ -359,19 +359,19 @@ html {
             flex-direction: column;
   }
 
-  .contact-container .contact-text {
-    width: 250%;
-    padding-left: 20px;
-  }
-
-  .contact-container .contact-right-side form {
-    width: 200%;
+  .contact-left-side {
+    width: 100% !important;
+    padding-right: 0 !important;
+    margin-top: -20px;
   }
 }
 @media (max-width: 1060px) and (max-width: 1068px) {
   .contact-right-side button {
     margin-top: 20px;
-    margin-left: 35%;
+  }
+
+  .contact-right-side {
+    width: 100% !important;
   }
 }
 .nav-container {
@@ -897,8 +897,8 @@ button.slick-arrow {
 
 .contact-left-side {
   width: 50%;
-  padding-right: 50px;
   text-align: center;
+  padding-right: 50px;
 }
 
 .contact-title h2 {
