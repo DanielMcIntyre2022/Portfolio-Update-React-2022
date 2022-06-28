@@ -12,10 +12,10 @@
   .about-me-container {
     flex-direction: column;
   }
-  .about-pic img {
-    width: 350px;
-    margin-top: 20px;
-  }
+  // .about-pic img {
+  //   width: 350px;
+  //   margin-top: 20px;
+  // }
   .about-text {
     width: 120%;
     padding-left: 50px;
@@ -24,10 +24,9 @@
 }
 
 @media (max-width: 500px) {
-  .about-pic img {
-    width: 300px;
-    height: 25vh !important;
-  }
+  // .about-pic img {
+  //   width: 300px;
+  //   height: 25vh !important;
 }
 
 @media (max-width: 1068px) {
