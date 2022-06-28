@@ -10,6 +10,7 @@ import TestimonalsSection from './Components/TestimonalsSection';
 import ContactSection from './Components/ContactSection';
 
 function App() {
+
   return (
     <div className="App">
       < NavBar />
@@ -21,7 +22,6 @@ function App() {
       < RecentWork />
       < SocialsComponent />
       < ContactSection />
-
     </div>
   );
 }

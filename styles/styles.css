@@ -829,6 +829,19 @@ button.slick-arrow {
 
 .contact-text p {
   color: grey;
+  font-size: 1rem;
+}
+
+.location-logo-container p {
+  font-size: 0.9rem;
+}
+
+.email-logo-container p {
+  font-size: 0.9rem;
+}
+
+.phone-logo-container p {
+  font-size: 0.9rem;
 }
 
 .contact-left-side {

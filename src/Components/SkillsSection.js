@@ -3,12 +3,15 @@ import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase } from 'react-icons/s
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
+import { useRef } from 'react';
 
 function SkillsSection() {
 
-    return (
+  const skillsRef = useRef()
+
+  return (
     
-        <div className="skills-wrapper">
+      <div ref={skillsRef} className="skills-wrapper ">
             <div className="skills-container">
                 <h2>Skills</h2>
           <div className="skills-list">

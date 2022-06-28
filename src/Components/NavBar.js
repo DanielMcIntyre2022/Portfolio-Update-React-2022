@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 function NavBar() {
 
     return (
-    
         <div className="nav-container">
             <div className="name-logo">
                 <span>DM</span>

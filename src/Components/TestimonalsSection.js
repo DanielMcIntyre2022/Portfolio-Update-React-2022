@@ -1,7 +1,6 @@
 import Slider from 'react-slick';
 import headshot1 from '../assets/bryan-pic.jpg';
 
-
 function TestimonalsSection() {
 
       const settings = {
@@ -20,7 +19,6 @@ function TestimonalsSection() {
         <div className="testimonals-container">
             <Slider {...settings}>
                 <div className="testimonals-one-container">
-            
             <p>"Daniel has been great to work with. He is an active participant in non-technical conversations and has taken charge of the technical aspects of our project. He is knowledgeable about his field and is able to effectively work in a team" - Bryan Jok, Product Manager, Co.Lab </p>
                     <img src={headshot1} alt="" />
                 </div>
