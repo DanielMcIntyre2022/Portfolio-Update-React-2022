@@ -782,15 +782,8 @@ h4::after {
   font-family: "Noticia Text";
 }
 
-.testimonals-container h1 {
-  color: white;
-  font-size: 5rem;
-  margin-top: -20px;
-}
-
 .testimonals-container p {
   color: white;
-  margin-top: -102px;
   padding-left: 15%;
   padding-right: 15%;
 }

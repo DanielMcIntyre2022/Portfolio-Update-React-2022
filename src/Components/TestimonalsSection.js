@@ -20,13 +20,12 @@ function TestimonalsSection() {
         <div className="testimonals-container">
             <Slider {...settings}>
                 <div className="testimonals-one-container">
-            <h1>"</h1>
-            <p>Daniel has been great to work with. He is an active participant in non-technical conversations and has taken charge of the technical aspects of our project. He is knowledgeable about his field and is able to effectively work in a team - Bryan Jok, Product Manager, Co.Lab </p>
+            
+            <p>"Daniel has been great to work with. He is an active participant in non-technical conversations and has taken charge of the technical aspects of our project. He is knowledgeable about his field and is able to effectively work in a team" - Bryan Jok, Product Manager, Co.Lab </p>
                     <img src={headshot1} alt="" />
                 </div>
                 <div className="testimonals-two-container">
-                    <h1>"</h1>
-            <p>Daniel is a pleasure to work with! He's reliable, dependable and an asset for on any team! - Kevin Zhang, Front-End Web Developer</p>
+            <p>"Daniel is a pleasure to work with! He's reliable, dependable and an asset for on any team!" - Kevin Zhang, Front-End Web Developer</p>
                     <img src={headshot1} alt="" />
                 </div>
             </Slider>
