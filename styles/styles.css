@@ -363,6 +363,7 @@ html {
     width: 100% !important;
     padding-right: 0 !important;
     margin-top: -20px;
+    text-align: center;
   }
 }
 @media (max-width: 1060px) and (max-width: 1068px) {
@@ -897,7 +898,6 @@ button.slick-arrow {
 
 .contact-left-side {
   width: 50%;
-  text-align: center;
   padding-right: 50px;
 }
 
