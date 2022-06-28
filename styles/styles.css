@@ -719,9 +719,6 @@ h4::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 5%;
-     -moz-column-gap: 5%;
-          column-gap: 5%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -731,6 +728,7 @@ h4::after {
 
 .made-with-icons li {
   list-style: none;
+  padding: 7px;
 }
 
 .made-with-icons svg {
@@ -741,9 +739,6 @@ h4::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 5%;
-     -moz-column-gap: 5%;
-          column-gap: 5%;
   text-decoration: underline;
   padding: 0;
   -webkit-box-pack: center;
