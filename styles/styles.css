@@ -660,7 +660,7 @@ h4::after {
 
 .socials-container {
   background-image: url(../../../assets/camping-night.jpg);
-  height: clamp(50px, 47.1875vw, 250px);
+  height: clamp(50px, 47.1875vw, 220px);
   width: 100%;
   background-size: cover;
   position: relative;
