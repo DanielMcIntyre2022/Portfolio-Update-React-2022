@@ -28,9 +28,10 @@
 
 .work-carousel {
   border: 1px solid grey;
-  height: 825px;
+  height: auto;
   margin-bottom: 40px;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .work-example-pic {
@@ -43,7 +44,7 @@
 .work-example-pic img {
   width: 85%;
   margin: 0 auto;
-  height: 55vh;
+  height: auto;
 }
 
 .work-example {
