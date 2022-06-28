@@ -291,7 +291,6 @@ html {
 @media (max-width: 1068px) {
   .about-text button {
     margin-top: 20px;
-    margin-left: 32.5%;
   }
 }
 @media (max-width: 630px) {
@@ -601,10 +600,9 @@ h4::after {
 
 .about-text button {
   background-color: black;
-  width: 30%;
+  width: auto;
   text-transform: uppercase;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 12.5px;
 }
 
 .about-text button a {
