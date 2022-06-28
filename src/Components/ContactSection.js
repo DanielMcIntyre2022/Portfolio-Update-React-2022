@@ -45,7 +45,7 @@ function ContactSection() {
             </div>
             <iframe title="torontoMAp" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184552.57289812327!2d-79.51814197994685!3d43.71815566190443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1656093403284!5m2!1sen!2sca" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <footer>
-                <p>Daniel McIntyre</p>
+                Copyright Daniel McIntyre
             </footer>
         </section>
 )}

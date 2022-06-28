@@ -57,3 +57,35 @@
 .work-example p {
   color: grey;
 }
+
+.made-with-icons ul {
+  display: flex;
+  padding: 10px;
+  margin-left: -10px;
+  column-gap: 5%;
+}
+
+.made-with-icons li {
+  list-style: none;
+}
+
+.made-with-icons svg {
+  font-size: 2rem;
+}
+
+.project-links ul {
+  display: flex;
+  column-gap: 5%;
+  margin-left: -35px;
+  margin-top: -15px;
+  text-decoration: underline;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-links li {
+  list-style: none;
+}

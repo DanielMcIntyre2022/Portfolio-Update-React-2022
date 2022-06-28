@@ -387,6 +387,11 @@ html {
   white-space: nowrap;
 }
 
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav-bar li {
   list-style: none;
   text-transform: uppercase;
@@ -510,7 +515,7 @@ h4::after {
 .skills-title:hover {
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
-  color: #6699ff;
+  color: #0066cc;
 }
 
 .skills-title svg {
@@ -721,6 +726,46 @@ h4::after {
   color: grey;
 }
 
+.made-with-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin-left: -10px;
+  -webkit-column-gap: 5%;
+     -moz-column-gap: 5%;
+          column-gap: 5%;
+}
+
+.made-with-icons li {
+  list-style: none;
+}
+
+.made-with-icons svg {
+  font-size: 2rem;
+}
+
+.project-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 5%;
+     -moz-column-gap: 5%;
+          column-gap: 5%;
+  margin-left: -35px;
+  margin-top: -15px;
+  text-decoration: underline;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-links li {
+  list-style: none;
+}
+
 .testimonals-container {
   background-image: url(../../../assets/code-two.jpg);
   height: clamp(50px, 47.1875vw, 320px);
@@ -746,7 +791,7 @@ h4::after {
   margin-top: -20px;
 }
 
-.testimonals-one-container h1::after {
+.testimonals-container h1::after {
   content: "";
   height: 5px;
   width: 30px;
@@ -777,6 +822,16 @@ h4::after {
   color: white;
   font-size: 1rem;
   margin-top: 5px;
+}
+
+.work-example {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .contact-wrapper {
@@ -919,7 +974,9 @@ footer {
   color: white;
 }
 
-footer p {
+footer {
   text-align: center;
   font-family: "Noticia Text";
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

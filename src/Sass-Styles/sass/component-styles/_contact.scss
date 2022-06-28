@@ -123,7 +123,9 @@ footer {
   color: white;
 }
 
-footer p {
+footer {
   text-align: center;
   font-family: $site-font;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
