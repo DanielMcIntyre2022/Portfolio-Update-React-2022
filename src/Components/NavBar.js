@@ -1,23 +1,59 @@
-import { Link } from 'react-router-dom';
 
-function NavBar() {
+function NavBar(props) {
+
+
+  const handleSkills = () => {
+    
+    if (props.skillsRef) {
+      props.skillsRef.current.scrollIntoView()
+    }
+  }
+
+  const handleAbout = () => {
+
+    if (props.aboutRef) {
+      props.aboutRef.current.scrollIntoView()
+    }
+  }
+
+  const handleWork = () => {
+
+    if (props.workRef) {
+      props.workRef.current.scrollIntoView()
+    }
+  }
+
+   const handleContact = () => {
+
+    if (props.contactRef) {
+      props.contactRef.current.scrollIntoView()
+    }
+  }
 
     return (
-        <div className="nav-container">
+
+ <div className="nav-container">
             <div className="name-logo">
                 <span>DM</span>
             </div>
-            <nav className="nav-bar">
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/skills">Skills</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/mywork">Work</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
+        <nav className="nav-bar">
+          <ul>
+            <li>Home</li>
+            <li>
+              <button onClick={handleSkills}/>Skills
+            </li>
+            <li>
+              <button onClick={handleAbout}/>About
+            </li>
+            <li>
+              <button onClick={handleWork}/>Work
+            </li>
+            <li>
+              <button onClick={handleContact}/>Contact</li>
+          </ul>
+         </nav>
         </div>
-)
+    )
 }
 
 export default NavBar;

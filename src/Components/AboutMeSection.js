@@ -1,10 +1,21 @@
 import headshot from '../assets/daniel-mcintyre-headshot.jpg';
 import resume from '../assets/Daniel_McIntyre_Resume_2022.pdf';
+import { useEffect, useRef } from 'react';
 
-function AboutMeSection() {
+function AboutMeSection(props) {
+
+const aboutRef = useRef();
+
+  useEffect(() => {
+
+    if (aboutRef) {
+      props.refA(aboutRef)
+    }
+  });
+
 
     return (
-        <section id="about-me">
+        <section ref={aboutRef} id="about-me">
          <h2>About Me</h2>
         <div className="about-me-container">
             <div className="about-pic">

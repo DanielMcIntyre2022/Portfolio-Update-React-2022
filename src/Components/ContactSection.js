@@ -1,11 +1,21 @@
 import { ImLocation } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';
 import { BsTelephoneFill } from 'react-icons/bs';
+import { useEffect, useRef } from 'react';
 
-function ContactSection() {
+function ContactSection(props) {
+
+const contactRef = useRef();
+
+  useEffect(() => {
+
+    if (contactRef) {
+      props.refC(contactRef)
+    }
+  });
 
     return (
-        <section id="contact-me-section">
+        <section ref={contactRef} id="contact-me-section">
             <div className="contact-wrapper">
                 <div className="contact-title">
                     <h2>Contact</h2>

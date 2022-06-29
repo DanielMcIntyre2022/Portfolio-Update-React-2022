@@ -1,9 +1,9 @@
 
-function Header() {
+function Header(props) {
 
     return (
 
-        <div className="header-container">
+        <div  className="header-container">
             <h1>Daniel McIntyre</h1>
             <h4>Building the Websites and Applications of Tomorrow</h4>
             <div className="button-container">

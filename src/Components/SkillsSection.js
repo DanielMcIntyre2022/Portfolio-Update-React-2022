@@ -3,11 +3,18 @@ import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase } from 'react-icons/s
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
-function SkillsSection() {
+function SkillsSection(props) {
 
-  const skillsRef = useRef()
+  const skillsRef = useRef();
+
+  useEffect(() => {
+
+    if (skillsRef) {
+      props.refS(skillsRef)
+    }
+  });
 
   return (
     
@@ -70,8 +77,9 @@ function SkillsSection() {
               <p>Experienced in developing user accessible website and applications.</p>
                </div>
               </div>
-            </div>
         </div>
+      </div>
+     
 )}
 
 export default SkillsSection;

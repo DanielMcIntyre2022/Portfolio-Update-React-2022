@@ -770,6 +770,15 @@ h4::after {
   list-style: none;
 }
 
+.work-example h1 a {
+  color: black;
+}
+
+.work-example a {
+  color: black;
+  text-decoration: none;
+}
+
 .testimonals-container {
   background-image: url(../../../assets/code-two.jpg);
   height: clamp(50px, 47.1875vw, 320px);
@@ -787,6 +796,14 @@ h4::after {
       -ms-flex-pack: center;
           justify-content: center;
   font-family: "Noticia Text";
+}
+
+.testimonals-one-container a {
+  color: white;
+}
+
+.testimonals-two-container a {
+  color: white;
 }
 
 .testimonals-container p {

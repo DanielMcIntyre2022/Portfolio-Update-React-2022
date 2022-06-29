@@ -3,9 +3,19 @@ import giphy1 from '../assets/video-diary-gif.gif';
 import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact } from 'react-icons/si'
-import { ImHtmlFive} from 'react-icons/im';
+import { ImHtmlFive } from 'react-icons/im';
+import { useEffect, useRef } from 'react';
 
-function RecentWork() {
+function RecentWork(props) {
+
+  const workRef = useRef();
+
+  useEffect(() => {
+
+    if (workRef) {
+      props.refW(workRef)
+    }
+  });
 
     const settings = {
       dots: true,
@@ -19,7 +29,7 @@ function RecentWork() {
     };
 
 return (
-    <section id="my-work">
+    <section ref={workRef}id="my-work">
         <div className="recent-work-wrapper">
             <h2>Recent Work</h2>
                 <div className="work-carousel">
