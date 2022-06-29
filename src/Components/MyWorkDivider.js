@@ -1,12 +1,19 @@
 
-function MyWorkDivider() {
+function MyWorkDivider(props) {
+
+  const handleWork = () => {
+
+    if (props.workRef) {
+      props.workRef.current.scrollIntoView()
+    }
+  }
 
     return (
     
-        <div className="my-work-divider-container">
+      <div className="my-work-divider-container">
             <h2>My Work</h2>
               <div className="my-work-button-container">
-                <button className="my-work-button">My Work</button>
+          <button onClick={handleWork}className="my-work-button">My Work</button>
                 </div>
         </div>
 )

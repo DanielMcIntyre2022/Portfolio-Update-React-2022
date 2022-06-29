@@ -39,9 +39,9 @@ function App() {
   return (
     <div className="App">
       < NavBar skillsRef={skillsRef} aboutRef={aboutRef} workRef={workRef} contactRef={contactRef} />
-      < Header />
+      < Header skillsRef={skillsRef} />
       < SkillsSection refS={handleSkillRef}/>
-      < MyWorkDivider />
+      < MyWorkDivider workRef={workRef} />
       < AboutMeSection refA={handleAboutRef}/>
       < TestimonalsSection />
       < RecentWork refW={handleWorkRef}/>
