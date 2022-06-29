@@ -373,6 +373,7 @@ html {
      -moz-column-gap: 5%;
           column-gap: 5%;
   white-space: nowrap;
+  margin-left: -1%;
 }
 
 .nav-bar a {
