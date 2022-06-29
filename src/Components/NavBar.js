@@ -38,7 +38,6 @@ function NavBar(props) {
             </div>
         <nav className="nav-bar">
           <ul>
-            <li>Home</li>
             <li>
               <button onClick={handleSkills}>Skills</button>
             </li>
