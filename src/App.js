@@ -20,7 +20,6 @@ function App() {
 
   const [contactRef, setContactRef] = useState('')
 
-
   const handleSkillRef = (e) => {
     setSkillsRef(e)
   }

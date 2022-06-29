@@ -40,16 +40,16 @@ function NavBar(props) {
           <ul>
             <li>Home</li>
             <li>
-              <button onClick={handleSkills}/>Skills
+              <button onClick={handleSkills}>Skills</button>
             </li>
             <li>
-              <button onClick={handleAbout}/>About
+              <button onClick={handleAbout}>About</button>
             </li>
             <li>
-              <button onClick={handleWork}/>Work
+              <button onClick={handleWork}>Work</button>
             </li>
             <li>
-              <button onClick={handleContact}/>Contact</li>
+              <button onClick={handleContact}>Contact</button></li>
           </ul>
          </nav>
         </div>

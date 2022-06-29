@@ -389,6 +389,14 @@ html {
   display: inline-block;
 }
 
+.nav-bar button {
+  background: transparent;
+  font-family: "Noticia Text";
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 .header-container {
   background-image: url(../../../assets/cool-space.jpg);
   height: clamp(50px, 47.1875vw, 570px);

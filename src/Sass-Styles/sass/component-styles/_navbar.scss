@@ -44,3 +44,11 @@
   width: 75px;
   display: inline-block;
 }
+
+.nav-bar button {
+  background: transparent;
+  font-family: $site-font;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
