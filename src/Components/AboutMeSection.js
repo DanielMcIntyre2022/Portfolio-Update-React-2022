@@ -23,7 +23,7 @@ const aboutRef = useRef();
             </div>
             <div className="about-wrapper">
                 <div class="about-text">
-                        <p><span id="capitlized">M</span>y name is Daniel McIntyre and I am Web Developer!</p>
+                        <p><span id="capitlized">M</span>y name is Daniel McIntyre and I am a Web Developer!</p>
                         <p>My tech-stack includes HTML5,
                             CSS/SCSS, JavaScript (ES6)
                             and React as well as experience implementing REST APIs and Firebase databases in
