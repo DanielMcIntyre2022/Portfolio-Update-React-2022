@@ -793,6 +793,10 @@ h4::after {
   text-decoration: none;
 }
 
+.work-example h1 a {
+  text-decoration: underline;
+}
+
 .testimonals-container {
   background-image: url(../../../assets/code-two.jpg);
   height: clamp(50px, 47.1875vw, 320px);
