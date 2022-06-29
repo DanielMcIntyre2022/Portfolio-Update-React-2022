@@ -32,7 +32,7 @@ function AboutMeSection() {
                             includes building innovative and exciting solutions in a collaborative team environment.</p>
                         <div className="about-me-button">
                         <button>
-                            <a href={resume}>
+                            <a href={resume} target="_blank" rel="noreferrer">
                                 View Resume</a>
                             </button>
                         </div>
