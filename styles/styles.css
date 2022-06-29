@@ -456,6 +456,7 @@ h4::after {
   padding-right: 15px;
   padding-left: 15px;
   margin-top: 10px;
+  border: 1px solid white;
 }
 
 .skills-container {
@@ -566,6 +567,7 @@ h4::after {
   padding-right: 15px;
   padding-left: 15px;
   margin-top: -30px;
+  border: 1px solid white;
 }
 
 #about-me h2 {
