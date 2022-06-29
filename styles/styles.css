@@ -397,6 +397,12 @@ html {
   text-transform: uppercase;
 }
 
+.nav-bar button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  color: #0066cc;
+}
+
 .header-container {
   background-image: url(../../../assets/cool-space.jpg);
   height: clamp(50px, 47.1875vw, 570px);
