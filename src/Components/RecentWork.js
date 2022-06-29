@@ -29,7 +29,7 @@ return (
                         <div className="work-example-pic">
                             <a href="https://video-diary.netlify.app/"><img src={giphy1} alt="" /></a>
                              <div className="work-example">
-                            <h1>Video Diary</h1>
+                            <h1><a href="https://eager-curran-c5f5e6.netlify.app/">Video Diary</a></h1>
                             <p>An application built in React, Video Diary uses Google's YouTube API and firebase. Fetches and displays the current global trending videos on YouTube. Users can also search for thier desired video and also save them to view later or delete from the page. </p>
                               <div className="made-with">
                                     <h3>Made With</h3>
@@ -56,8 +56,8 @@ return (
                         <div className="work-example-pic">
                             <a href="https://giphy-sentiment-39.netlify.app/"><img src={giphy2} alt="" /></a>
                              <div className="work-example">
-                            <h1>Giphy Sentiment</h1>
-                            <p>An application built in React, Giphy Sentiment utlizes the Giphy API and Firebase. Users can search for Giphys that matches thier mood and save thier desried gifs to view at a later time. Built with friends Kevin Zhang and David Benitez.</p>
+                            <h1><a href="https://giphy-sentiment-39.netlify.app/">Giphy Sentiment</a></h1>
+                            <p>An application built in React, Giphy Sentiment utlizes the Giphy API and Firebase. Users can search for Giphys that matches thier mood and save thier desried gifs to view at a later time. Built with friends <a href="https://www.linkedin.com/in/kevzhang-dev/">Kevin Zhang</a> and <a href="https://www.linkedin.com/in/david-benitez-878974236/">David Benitez.</a></p>
                             <div className="made-with">
                                     <h3>Made With</h3>
                                     <div className="made-with-icons">
@@ -84,8 +84,8 @@ return (
                         <div className="work-example-pic">
                             <a href="https://eager-curran-c5f5e6.netlify.app/"><img src={giphy3} alt="" /></a>
                              <div className="work-example">
-                            <h1>Movie Mood</h1>
-                                <p>An application built using HTML, CSS, SASS, JavaScript and the MovieDB REST API, MovieMood fetches movies the user can watch based on thier input of genre and time period for the last 100 years. Made in collaboration with friend Kimberly Schubert.</p>
+                            <h1><a href="https://eager-curran-c5f5e6.netlify.app/">Movie Mood</a></h1>
+                                <p>An application built using HTML, CSS, SASS, JavaScript and the MovieDB REST API, MovieMood fetches movies the user can watch based on thier input of genre and time period for the last 100 years. Made in collaboration with friend <a href="https://www.kimberleycodes.com/">Kimberly Schubert.</a></p>
                                 <div className="made-with">
                                     <h3>Made With</h3>
                                     <div className="made-with-icons">
