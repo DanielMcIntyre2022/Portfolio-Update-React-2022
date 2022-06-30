@@ -39,7 +39,7 @@ return (
                         <div className="work-example-pic">
                             <a href="https://video-diary.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy1} alt="" /></a>
                              <div className="work-example">
-                            <h1><a href="https://eager-curran-c5f5e6.netlify.app/" target="_blank" rel="noreferrer">Video Diary</a></h1>
+                            <h1><a href="https://video-diary.netlify.app/" target="_blank" rel="noreferrer">Video Diary</a></h1>
                             <p>An application built in React, Video Diary uses Google's YouTube API and firebase. Fetches and displays the current global trending videos on YouTube. Users can also search for thier desired video and also save them to view later or delete from the page. </p>
                               <div className="made-with">
                                     <h3>Made With</h3>
@@ -55,7 +55,7 @@ return (
                                         </div>
                                 <div className="project-links">
                                     <ul>
-                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/MovieMood" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
+                                        <li><h3><a href="https://github.com/DanielMcIntyre2022/Daniel-McIntyre-Project-Three" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
                                     </ul>
                                 </div>
                              </div>
