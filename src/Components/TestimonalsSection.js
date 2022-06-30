@@ -1,5 +1,6 @@
 import Slider from 'react-slick';
 import headshot1 from '../assets/bryan-pic.jpg';
+import unknownheadshot from '../assets/unknown-person.jpg';
 
 function TestimonalsSection() {
 
@@ -24,7 +25,7 @@ function TestimonalsSection() {
                 </div>
                 <div className="testimonals-two-container">
             <p>"Daniel is a pleasure to work with! He's reliable, dependable and an asset for on any team!" - <a href="https://www.linkedin.com/in/kevzhang-dev/" target="_blank" rel="noreferrer">Kevin Zhang, Application Developer</a></p>
-                    <img src={headshot1} alt="" />
+                    <img src={unknownheadshot} alt="" />
                 </div>
             </Slider>
         </div>

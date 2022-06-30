@@ -3,6 +3,12 @@
   font-family: $site-font;
 }
 
+.nav-bar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 .name-logo {
   text-transform: uppercase;
   font-weight: 700;
