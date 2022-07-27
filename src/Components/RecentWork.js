@@ -46,9 +46,6 @@ function RecentWork(props) {
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
                                             <ul>
-                                                <li><ImHtmlFive /></li>
-                                                <li><SiCss3 /></li>
-                                                <li><SiJavascript /></li>
                                                 <li><SiReact /></li>
                                                 <li><SiFirebase /></li>
                                                 <li><FaNodeJs /></li>
