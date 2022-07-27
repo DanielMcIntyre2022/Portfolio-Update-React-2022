@@ -1,7 +1,7 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
-import { FaGitSquare, FaGithub } from 'react-icons/fa';
+import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
 import { useEffect, useRef } from 'react';
 
@@ -54,7 +54,23 @@ function SkillsSection(props) {
                     <SiFirebase/><h4>FireBase</h4>
                     <p>Develops and manages backend functionality by utilizing firebase database systems.
               </p>
-            </div>
+          </div>
+          <div className="skills-title nodejs">
+            <FaNodeJs /><h4>Node.JS</h4>
+            <p>Develops server-side applications seemlessly sending data from the back-end to the front end and vice-versa.</p>
+          </div>
+          <div className="skills-title express">
+            <SiExpress /><h4>Express.JS</h4>
+            <p>Utilizes the express backend framework with nodejs to build powerful large-scale full-stack applications</p>
+          </div>
+          <div className="skills-title heroku">
+            <SiHeroku /><h4>Heroku</h4>
+            <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations</p>
+          </div>
+          <div className="skills-title netlify">
+            <SiNetlify /><h4>Netlify</h4>
+            <p>Effectively utilizes Netlify's cloud-based platform to deploy production ready front-end applications.</p>
+          </div>
             <div className="skills-title git">
                     <FaGitSquare/><h4>Git</h4>
                       <p>Knowledge of Git workflow and file structures within applications.
