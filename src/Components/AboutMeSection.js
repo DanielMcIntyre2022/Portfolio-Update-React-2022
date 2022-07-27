@@ -24,12 +24,7 @@ const aboutRef = useRef();
             <div className="about-wrapper">
                 <div class="about-text">
                         <p><span id="capitlized">M</span>y name is Daniel McIntyre and I am a Web Developer!</p>
-                        <p>My tech-stack includes HTML5,
-                            CSS/SCSS, JavaScript (ES6)
-                            and React as well as experience implementing REST APIs and Firebase databases in
-                            applications. I also have
-                            proficiency and experience in git
-                            collaboration with team members.
+                        <p> I have front-end skills in HTML, CSS, JavaScript, React and cloud-based database storage systems such as Firebase, in addition to knowledge of back-end server building with Node JS and express. I build the responsive and accessible websites and applications of tomorrow.
                         </p>
                         <p>In addition to my technical background, I have over a decade of experience in the media and
                             communications industry

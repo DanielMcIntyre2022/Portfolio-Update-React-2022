@@ -2,7 +2,9 @@ import Slider from 'react-slick';
 import giphy1 from '../assets/video-diary-gif.gif';
 import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
-import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact } from 'react-icons/si'
+import giphy4 from '../assets/social-lite-final-gif.gif';
+import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress } from 'react-icons/si'
+import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
 import { useEffect, useRef } from 'react';
 
@@ -34,7 +36,34 @@ function RecentWork(props) {
                 <h2>Recent Work</h2>
                 <div className="work-carousel">
                     <Slider {...settings}>
-
+                        <div className="work-example-container">
+                            <div className="work-example-pic">
+                                <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
+                                <div className="work-example">
+                                    <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">Socailite</a></h1>
+                                    <p>A full-stack event planning application built with React in the front-end and Node JS/firebase in the back-end.</p>
+                                    <div className="made-with">
+                                        <h3>Made With</h3>
+                                        <div className="made-with-icons">
+                                            <ul>
+                                                <li><ImHtmlFive /></li>
+                                                <li><SiCss3 /></li>
+                                                <li><SiJavascript /></li>
+                                                <li><SiReact /></li>
+                                                <li><SiFirebase /></li>
+                                                <li><FaNodeJs /></li>
+                                                <li><SiExpress /></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="project-links">
+                                        <ul>
+                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/Social-Lite-Application" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="work-example-container">
                             <div className="work-example-pic">
                                 <a href="https://video-diary.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy1} alt="" /></a>
@@ -117,7 +146,6 @@ function RecentWork(props) {
                         </div>
                     </Slider>
                 </div>
-
             </div>
         </section>
     )
