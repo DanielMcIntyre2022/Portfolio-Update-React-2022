@@ -30,7 +30,7 @@ function TestimonalsSection() {
                     <img src={headshot2} alt="" />
                 </div>
                  <div className="testimonals-three-container">
-            <p>"Daniel is a forward thinking, intelligent, and a motivated frontend developer who excels in understanding new concepts. He is not afraid to ask for help when he needs it nor does he refuse to help when you ask." - <a href="https://www.linkedin.com/in/alvinwchou/" target="_blank" rel="noreferrer">Alvin Chou, Front-End Developer</a></p>
+            <p>"Daniel is a forward thinking, intelligent, and a motivated web developer who excels in understanding new concepts. He is not afraid to ask for help when he needs it nor does he refuse to help when you ask." - <a href="https://www.linkedin.com/in/alvinwchou/" target="_blank" rel="noreferrer">Alvin Chou, Front-End Developer</a></p>
                     <img src={headshot3} alt="" />
                 </div>
                 <div className="testimonals-four-container">
