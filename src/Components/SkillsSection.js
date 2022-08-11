@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -48,6 +48,11 @@ function SkillsSection(props) {
             <div className="skills-title react">
                     <SiReact/><h4>React</h4>
                     <p>Builds innovative React applications. Utilizing framework packaging tools.
+              </p>
+            </div>
+             <div className="skills-title redux">
+                    <SiRedux/><h4>Redux</h4>
+                    <p>Utilizes Redux effectively with the React front-end framework. 
               </p>
             </div>
             <div className="skills-title firebase">
