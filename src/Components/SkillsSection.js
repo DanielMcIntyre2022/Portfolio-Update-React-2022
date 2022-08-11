@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -62,6 +62,10 @@ function SkillsSection(props) {
           <div className="skills-title express">
             <SiExpress /><h4>Express.JS</h4>
             <p>Utilizes the express backend framework with nodejs to build powerful large-scale full-stack applications</p>
+          </div>
+          <div className="skills-title mongodb">
+            <SiMongodb /><h4>MongoDB</h4>
+            <p>Utilizes MongoDB Atltas to build MERN stack applications. </p>
           </div>
           <div className="skills-title heroku">
             <SiHeroku /><h4>Heroku</h4>
