@@ -70,7 +70,7 @@ function SkillsSection(props) {
             <p>Develops server-side applications seemlessly sending data from the back-end to the front end and vice-versa.</p>
           </div>
           <div className="skills-title express">
-            <SiExpress /><h4>Express JS</h4>
+            <SiExpress /><h4>Express</h4>
             <p>Utilizes the express backend framework with nodejs to build powerful large-scale full-stack applications.</p>
           </div>
           <div className="skills-title mongodb">
