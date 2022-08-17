@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe} from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -117,6 +117,10 @@ function SkillsSection(props) {
             <div className="skills-title responsive">
                     <IoIosPhonePortrait/><h4>Responsive</h4>
               <p>Builds fully responsive websites for desktop, tablet and mobile devices.</p>
+          </div>
+          <div className="skills-title responsive">
+                    <SiFigma /><h4>Figma</h4>
+              <p>Experienced in utilizing Figma's design tool capabilities to create UI and UX friendy website and applications.</p>
             </div>
             <div className="skills-title accessiblity">
                     <ImAccessibility/><h4>Accessibility</h4>
