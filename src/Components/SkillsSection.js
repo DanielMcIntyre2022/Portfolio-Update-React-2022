@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe} from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -51,6 +51,11 @@ function SkillsSection(props) {
               </p>
             </div>
              <div className="skills-title redux">
+                    <SiMeteor/><h4>Meteor JS</h4>
+                    <p>Experienced in building large-scale projects ulitizing the full-stack Meteor JS framework.
+              </p>
+          </div>
+          <div className="skills-title redux">
                     <SiRedux/><h4>Redux</h4>
                     <p>Utilizes Redux effectively with the React front-end framework. 
               </p>
@@ -61,24 +66,32 @@ function SkillsSection(props) {
               </p>
           </div>
           <div className="skills-title nodejs">
-            <FaNodeJs /><h4>Node.JS</h4>
+            <FaNodeJs /><h4>Node JS</h4>
             <p>Develops server-side applications seemlessly sending data from the back-end to the front end and vice-versa.</p>
           </div>
           <div className="skills-title express">
-            <SiExpress /><h4>Express.JS</h4>
-            <p>Utilizes the express backend framework with nodejs to build powerful large-scale full-stack applications</p>
+            <SiExpress /><h4>Express JS</h4>
+            <p>Utilizes the express backend framework with nodejs to build powerful large-scale full-stack applications.</p>
           </div>
           <div className="skills-title mongodb">
             <SiMongodb /><h4>MongoDB</h4>
-            <p>Utilizes MongoDB Atltas to build MERN stack applications. </p>
+            <p>Utilizes MongoDB and MongoDB Atltas to build MERN stack applications. </p>
           </div>
           <div className="skills-title bootstrap">
             <SiBootstrap /><h4>Bootstrap</h4>
-            <p>Experience implmenting Bootstrap in web and mobile-first applications.</p>
+            <p>Experience implmenting the CSS library Bootstrap in web and mobile-first applications.</p>
           </div>
           <div className="skills-title bootstrap">
+            <SiMaterialui /><h4>Material UI</h4>
+            <p>Experience implmenting the CSS library Material UI in web and mobile-first applications.</p>
+          </div>
+          <div className="skills-title sendgrid">
             <SiMinutemailer /><h4>SendGrid</h4>
             <p>Experienced in utilizes SendGrid's API system along with server-side capabilities to send user/client emails.</p>
+          </div>
+          <div className="skills-title sendgrid">
+            <SiStripe /><h4>Stripe</h4>
+            <p>Experienced in utilizes Stripe's API system along with server-side capabilities to authorize user/client payments.</p>
           </div>
           <div className="skills-title heroku">
             <SiHeroku /><h4>Heroku</h4>
