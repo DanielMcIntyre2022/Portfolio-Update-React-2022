@@ -50,16 +50,16 @@ function SkillsSection(props) {
                     <p>Builds innovative React applications. Utilizing framework packaging tools.
               </p>
             </div>
-             <div className="skills-title redux">
-                    <SiMeteor/><h4>Meteor JS</h4>
-                    <p>Experienced in building large-scale projects ulitizing the full-stack Meteor JS framework.
-              </p>
-          </div>
           <div className="skills-title redux">
                     <SiRedux/><h4>Redux</h4>
                     <p>Utilizes Redux effectively with the React front-end framework. 
               </p>
-            </div>
+          </div>
+          <div className="skills-title redux">
+                    <SiMeteor/><h4>Meteor JS</h4>
+                    <p>Experienced in building large-scale projects ulitizing the full-stack Meteor JS framework.
+              </p>
+          </div>
             <div className="skills-title firebase">
                     <SiFirebase/><h4>FireBase</h4>
                     <p>Develops and manages backend functionality by utilizing firebase database systems.
