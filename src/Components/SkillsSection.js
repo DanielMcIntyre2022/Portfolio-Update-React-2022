@@ -49,7 +49,11 @@ function SkillsSection(props) {
                     <TbApi/><h4>Rest Apis</h4>
                     <p>Utilizes and implements REST APIs and data structures in applications.
               </p>
-            </div>
+          </div>
+           <div className="skills-title graphql">
+            <SiGraphql/><h4>GraphQL</h4>
+            <p>Experienced in utilizing GraphQL in large-scale projects with complex API client requests.</p>
+          </div>
             <div className="skills-title react">
                     <SiReact/><h4>React</h4>
                     <p>Builds innovative React applications. Utilizing framework packaging tools.
@@ -102,10 +106,7 @@ function SkillsSection(props) {
             <SiStripe /><h4>Stripe</h4>
             <p>Experienced in utilizes Stripe's API system along with server-side capabilities to authorize user/client payments.</p>
           </div>
-          <div className="skills-title graphql">
-            <SiGraphql/><h4>GraphQL</h4>
-            <p>Experienced in utilizing GraphQL in large-scale projects with complex API client requests.</p>
-          </div>
+         
           <div className="skills-title heroku">
             <SiHeroku /><h4>Heroku</h4>
             <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations.</p>
