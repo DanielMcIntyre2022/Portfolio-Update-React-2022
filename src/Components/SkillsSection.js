@@ -1,5 +1,5 @@
 import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma, SiGraphql, SiTailwindcss, SiTypescript, SiGooglecloud } from 'react-icons/si'
 import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -33,6 +33,11 @@ function SkillsSection(props) {
             <div className="skills-title javascript">
                     <SiJavascript/><h4>Javascript</h4>
                       <p>Experienced in utilizing JavaScript in building interactive websites and applications.
+              </p>
+          </div>
+            <div className="skills-title typescript">
+                    <SiTypescript/><h4>Typescript</h4>
+                      <p>Experienced in utilizing Typescript in building interactive websites and applications.
               </p>
             </div>
             <div className="skills-title sass">
@@ -79,7 +84,11 @@ function SkillsSection(props) {
           </div>
           <div className="skills-title bootstrap">
             <SiBootstrap /><h4>Bootstrap</h4>
-            <p>Experience implmenting the CSS library Bootstrap in web and mobile-first applications.</p>
+            <p>Experience implmenting the CSS framework Bootstrap in web and mobile-first applications.</p>
+          </div>
+          <div className="skills-title bootstrap">
+            <SiTailwindcss/><h4>Tailwind CSS</h4>
+            <p>Experience implmenting the CSS framework Tailwind in web and mobile-first applications.</p>
           </div>
           <div className="skills-title bootstrap">
             <SiMaterialui /><h4>Material UI</h4>
@@ -93,9 +102,17 @@ function SkillsSection(props) {
             <SiStripe /><h4>Stripe</h4>
             <p>Experienced in utilizes Stripe's API system along with server-side capabilities to authorize user/client payments.</p>
           </div>
+          <div className="skills-title graphql">
+            <SiGraphql/><h4>GraphQL</h4>
+            <p>Experienced in utilizing GraphQL in large-scale projects with complex API client requests.</p>
+          </div>
           <div className="skills-title heroku">
             <SiHeroku /><h4>Heroku</h4>
-            <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations</p>
+            <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations.</p>
+          </div>
+           <div className="skills-title netlify">
+            <SiGooglecloud /><h4>Google Cloud</h4>
+            <p>Experienced in ultizing Google's cloud platform to in order to utilize thier APIs and enabling Google OAuth functions with applications.</p>
           </div>
           <div className="skills-title netlify">
             <SiNetlify /><h4>Netlify</h4>
