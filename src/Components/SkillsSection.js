@@ -7,7 +7,7 @@ import { useEffect, useRef } from 'react';
 
 function SkillsSection(props) {
 
-  const skillsRef = useRef();
+  const skillsRef = useRef(); 
 
   useEffect(() => {
 
