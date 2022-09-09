@@ -1,6 +1,6 @@
-import { ImHtmlFive, ImAccessibility } from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma, SiGraphql, SiTailwindcss, SiTypescript, SiGooglecloud } from 'react-icons/si'
-import { TbApi, TbCommand, TbBrandReactNative } from 'react-icons/tb';
+import { ImHtmlFive} from 'react-icons/im';
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma, SiGraphql, SiTailwindcss, SiTypescript, SiGooglecloud, SiExpo} from 'react-icons/si'
+import { TbApi, TbCommand } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
 import { useEffect, useRef } from 'react';
@@ -55,13 +55,13 @@ function SkillsSection(props) {
             <p>Experienced in utilizing GraphQL in large-scale projects with complex API client requests.</p>
           </div>
             <div className="skills-title react">
-                    <SiReact/><h4>React</h4>
-                    <p>Builds innovative React applications. Utilizing framework packaging tools.
+                    <SiReact/><h4>React / React Native</h4>
+                    <p>Builds innovative React web applications and large-scale full-stack mobile applications using React Native.
               </p>
             </div>
             <div className="skills-title react">
-                    <TbBrandReactNative/><h4>React Native</h4>
-                    <p> Experienced in building large-scale full-stack mobile applications using React Native.
+                    <SiExpo/><h4>Expo</h4>
+                    <p> Utilizes the Expo toolset to create, test and deploy mobile applications.
               </p>
             </div>
           <div className="skills-title redux">
