@@ -60,7 +60,7 @@ function SkillsSection(props) {
               </p>
             </div>
             <div className="skills-title NextJS">
-                    <TbBrandNextjs/><h4>NextJS</h4>
+                    <TbBrandNextjs/><h4>Next JS</h4>
                     <p>Experienced in building innovative NextJS web applications.
               </p>
             </div>
