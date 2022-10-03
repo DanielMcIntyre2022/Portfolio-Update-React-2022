@@ -56,7 +56,7 @@ function SkillsSection(props) {
             </div>
             <div className="skills-title angular">
                     <SiAngular/><h4>Angular</h4>
-                    <p>Builds innovative React web applications and large-scale full-stack mobile applications using React Native.
+                    <p>Builds innovative React web applications and large-scale full-stack mobile applications using Angular.
               </p>
             </div>
             <div className="skills-title NextJS">
