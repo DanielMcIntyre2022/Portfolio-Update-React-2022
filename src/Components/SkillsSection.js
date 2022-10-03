@@ -1,5 +1,5 @@
 import { ImHtmlFive} from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiFigma, SiGraphql, SiTailwindcss, SiTypescript, SiGooglecloud, SiExpo} from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiGraphql, SiTailwindcss, SiGooglecloud, SiExpo, SiAngular} from 'react-icons/si'
 import { TbApi, TbCommand, TbBrandNextjs } from 'react-icons/tb';
 import { FaGitSquare, FaGithub, FaNodeJs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
@@ -31,15 +31,10 @@ function SkillsSection(props) {
               <p>Well versed in the latest version of CSS version 3 technology and design frameworks.</p>
             </div>
             <div className="skills-title javascript">
-                    <SiJavascript/><h4>Javascript</h4>
-                      <p>Experienced in utilizing JavaScript in building interactive websites and applications.
+                    <SiJavascript/><h4>Javascript / Typescript</h4>
+                      <p>Experienced in utilizing JavaScript and Typescript in building interactive websites and applications.
               </p>
           </div>
-            <div className="skills-title typescript">
-                    <SiTypescript/><h4>Typescript</h4>
-                      <p>Experienced in utilizing Typescript in building interactive websites and applications.
-              </p>
-            </div>
             <div className="skills-title sass">
                     <SiSass/><h4>Sass</h4>
                       <p>Effectively implements SASS scripting language in large scale CSS projects.
@@ -56,6 +51,11 @@ function SkillsSection(props) {
           </div>
             <div className="skills-title react">
                     <SiReact/><h4>React / React Native</h4>
+                    <p>Builds innovative React web applications and large-scale full-stack mobile applications using React Native.
+              </p>
+            </div>
+            <div className="skills-title angular">
+                    <SiAngular/><h4>Angular</h4>
                     <p>Builds innovative React web applications and large-scale full-stack mobile applications using React Native.
               </p>
             </div>
