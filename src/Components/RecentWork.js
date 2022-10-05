@@ -70,12 +70,9 @@ function RecentWork(props) {
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
-                                            <ul>
-                                                <li><ImHtmlFive /></li>
-                                                <li><SiCss3 /></li>
+                                            <ul>   
+                                             <li><SiReact /></li>           
                                                 <li><SiSass /></li>
-                                                <li><SiJavascript /></li>
-                                                <li><SiReact /></li>
                                                 <li><SiFirebase /></li>
                                             </ul>
                                         </div>
@@ -98,11 +95,8 @@ function RecentWork(props) {
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
                                             <ul>
-                                                <li><ImHtmlFive /></li>
-                                                <li><SiCss3 /></li>
+                                             <li><SiReact /></li>
                                                 <li><SiSass /></li>
-                                                <li><SiJavascript /></li>
-                                                <li><SiReact /></li>
                                                 <li><SiFirebase /></li>
                                             </ul>
                                         </div>
@@ -129,7 +123,6 @@ function RecentWork(props) {
                                                 <li><SiCss3 /></li>
                                                 <li><SiSass /></li>
                                                 <li><SiJavascript /></li>
-                                                <li><SiFirebase /></li>
                                             </ul>
                                         </div>
                                     </div>
