@@ -1,7 +1,7 @@
 import { ImHtmlFive} from 'react-icons/im';
-import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiGraphql, SiTailwindcss, SiGooglecloud, SiExpo, SiAngular} from 'react-icons/si'
-import { TbApi, TbCommand, TbBrandNextjs } from 'react-icons/tb';
-import { FaGitSquare, FaGithub, FaNodeJs, FaVuejs } from 'react-icons/fa';
+import { SiCss3, SiJavascript, SiSass, SiReact, SiFirebase, SiExpress, SiHeroku, SiNetlify, SiMongodb, SiBootstrap, SiMinutemailer, SiRedux, SiMeteor, SiMaterialui, SiStripe, SiGraphql, SiTailwindcss, SiGooglecloud, SiExpo, SiAngular, SiIonic} from 'react-icons/si'
+import { TbApi, TbBrandNextjs } from 'react-icons/tb';
+import { FaGitSquare, FaNodeJs, FaVuejs } from 'react-icons/fa';
 import { IoIosPhonePortrait } from 'react-icons/io';
 import { useEffect, useRef } from 'react';
 
@@ -60,7 +60,11 @@ function SkillsSection(props) {
                     <p>Experienced in building large-scale projects ulitizing the full-stack Meteor JS framework.
               </p>
           </div>
-            
+          <div className="skills-title ionic">
+                    <SiIonic/><h4>Ionic</h4>
+                    <p>Experienced in building large-scale mobile projects ulitizing Ionic.
+              </p>
+          </div>
                <div className="skills-title restapi">
                     <TbApi/><h4>Rest Apis</h4>
                     <p>Utilizes and implements REST APIs and data structures in applications.
@@ -138,13 +142,9 @@ function SkillsSection(props) {
           </div>
           
             <div className="skills-title git">
-                    <FaGitSquare/><h4>Git</h4>
-                      <p>Knowledge of Git workflow and file structures within applications.
+                    <FaGitSquare/><h4>Git / Github</h4>
+                      <p>Knowledge of Git workflow and file structures within applications and experience working with GitHub in collaboration with team members on large scale projects.
               </p>
-            </div>
-            <div className="skills-title github">
-                    <FaGithub/><h4>Github</h4>
-              <p>Experience working with GitHub in collaboration with team members on large scale projects.</p>
             </div>
             <div className="skills-title responsive">
                     <IoIosPhonePortrait/><h4>Responsive</h4>
