@@ -36,14 +36,13 @@ function SkillsSection(props) {
               </p>
           </div>
           <div className="skills-title react">
-                    <SiReact/><h4>React / React Native</h4>
-                    <p>Builds innovative React web applications and large-scale full-stack mobile applications using React Native.
+                    <SiReact/><h4>React / Redux </h4>
+                    <p>Builds innovative React web applications and utilizes Redux effectively with the React front-end framework.
               </p>
             </div>
             <div className="skills-title vue">
-                    <FaVuejs/><h4>Vue</h4>
-                    <p>Builds innovative Vue web applications and large-scale full-stack mobile applications using React Native.
-              </p>
+                    <FaVuejs/><h4>Vue / Vuex</h4>
+                    <p>Builds innovative Vue web applications and and utilizes Vuex effectively with the Vue front-end framework.</p>
             </div>
             <div className="skills-title angular">
                     <SiAngular/><h4>Angular</h4>
@@ -60,11 +59,6 @@ function SkillsSection(props) {
                     <p>Experienced in building large-scale projects ulitizing the full-stack Meteor JS framework.
               </p>
           </div>
-          <div className="skills-title ionic">
-                    <SiIonic/><h4>Ionic</h4>
-                    <p>Experienced in building large-scale mobile projects ulitizing Ionic.
-              </p>
-          </div>
                <div className="skills-title restapi">
                     <TbApi/><h4>Rest Apis</h4>
                     <p>Utilizes and implements REST APIs and data structures in applications.
@@ -73,14 +67,7 @@ function SkillsSection(props) {
            <div className="skills-title graphql">
             <SiGraphql/><h4>GraphQL</h4>
             <p>Experienced in utilizing GraphQL in large-scale projects with complex API client requests.</p>
-          </div>   
-            
-          <div className="skills-title redux">
-                    <SiRedux/><h4>Redux</h4>
-                    <p>Utilizes Redux effectively with the React front-end framework. 
-              </p>
-          </div>
-          
+          </div>             
             <div className="skills-title firebase">
                     <SiFirebase/><h4>FireBase</h4>
                     <p>Develops and manages backend functionality by utilizing firebase database systems.
@@ -111,10 +98,6 @@ function SkillsSection(props) {
             <SiTailwindcss/><h4>Tailwind CSS</h4>
             <p>Experience implmenting the CSS framework Tailwind in web and mobile-first applications.</p>
           </div>
-          <div className="skills-title bootstrap">
-            <SiMaterialui /><h4>Material UI</h4>
-            <p>Experience implmenting the CSS library Material UI in web and mobile-first applications.</p>
-          </div>
           <div className="skills-title sendgrid">
             <SiMinutemailer /><h4>SendGrid</h4>
             <p>Experienced in utilizes SendGrid's API system along with server-side capabilities to send user/client emails.</p>
@@ -131,11 +114,6 @@ function SkillsSection(props) {
             <SiHeroku /><h4>Heroku</h4>
             <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations.</p>
           </div>
-          <div className="skills-title react">
-                    <SiExpo/><h4>Expo</h4>
-                    <p> Utilizes the Expo toolset to create, test and deploy mobile applications.
-              </p>
-            </div>
            <div className="skills-title netlify">
             <SiGooglecloud /><h4>Google Cloud</h4>
             <p>Experienced in ultizing Google's cloud platform to in order to utilize thier APIs and enabling Google OAuth functions with applications.</p>
