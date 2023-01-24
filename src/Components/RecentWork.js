@@ -4,7 +4,7 @@ import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
 import giphy5 from '../assets/e-comm-gif.gif';
-import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui, SiStripe } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
 import { useEffect, useRef } from 'react';
@@ -42,7 +42,7 @@ function RecentWork(props) {
                                 <a href="https://dans-e-commerce.up.railway.app/" target="_blank" rel="noreferrer"><img src={giphy5} alt="" /></a>
                                 <div className="work-example">
                                     <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
-                                    <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. Made with TailwindCSS and Material UI CSS libraries. Utilizes Redux toolkit for state mangement and JSON web tokens (JWT) for user authentication and authorization.</p>
+                                    <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. Made with TailwindCSS and Material UI CSS libraries. Utilizes Redux toolkit for state mangement and JSON web tokens (JWT) for user authentication and authorization. Includes intergration of Stripe API to handle user payments.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
@@ -54,6 +54,7 @@ function RecentWork(props) {
                                                 <li><FaNodeJs /></li>
                                                 <li><SiExpress /></li>
                                                 <li><SiFirebase /></li>
+                                                <li><SiStripe/></li>
                                             </ul>
                                         </div>
                                     </div>
