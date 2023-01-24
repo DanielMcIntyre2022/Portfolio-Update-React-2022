@@ -120,8 +120,8 @@ function SkillsSection(props) {
           </div>
           
             <div className="skills-title git">
-                    <FaGitSquare/><h4>Git / Github</h4>
-                      <p>Knowledge of Git workflow and file structures within applications and experience working with GitHub in collaboration with team members on large scale projects.
+                  <FaGitSquare/><h4>Git / Github</h4>
+                  <p>Knowledge of Git workflow and file structures within applications and experience working with GitHub in collaboration with team members on large scale projects.
               </p>
             </div>
             <div className="skills-title responsive">

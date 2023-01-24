@@ -3,7 +3,7 @@ import giphy1 from '../assets/video-diary-gif.gif';
 import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
-import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui, SiRailway } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
 import { useEffect, useRef } from 'react';
@@ -36,6 +36,38 @@ function RecentWork(props) {
                 <h2>Recent Work</h2>
                 <div className="work-carousel">
                     <Slider {...settings}>
+                    <div className="work-example-container">
+                            <div className="work-example-pic">
+                                <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
+                                <div className="work-example">
+                                    <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
+                                    <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. Made with TailwindCSS and Material UI CSS libraries. Utilizes Redux toolkit for state mangement and JSON web tokens (JWT) for user authentication</p>
+                                    <div className="made-with">
+                                        <h3>Made With</h3>
+                                        <div className="made-with-icons">
+                                            <ul>
+                                                <li><SiReact /></li>
+                                                <li><SiTailwindcss/></li>
+                                                <li><SiMaterialui/></li>
+                                                <li><SiRedux/></li>
+                                                <li><FaNodeJs /></li>
+                                                <li><SiExpress /></li>
+                                                <li><SiFirebase /></li>
+                                            </ul>
+                                        </div>
+                                        <div className='deployed-on'>
+                                            <h3>Deployed with</h3>
+                                            <SiRailway/>
+                                        </div>
+                                    </div>
+                                    <div className="project-links">
+                                        <ul>
+                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/FINAL-E-Comm-Portfolio-Web-App" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div className="work-example-container">
                             <div className="work-example-pic">
                                 <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
