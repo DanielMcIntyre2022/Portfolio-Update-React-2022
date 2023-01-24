@@ -107,6 +107,11 @@ function SkillsSection(props) {
             <SiStripe /><h4>Stripe</h4>
             <p>Experienced in utilizes Stripe's API system along with server-side capabilities to authorize user/client payments.</p>
           </div>
+          <div className="skills-title git">
+              <FaGitSquare/><h4>Git / Github</h4>
+              <p>Knowledge of Git workflow and file structures within applications and experience working with GitHub in collaboration with team members on large scale projects.
+              </p>
+            </div>
           <div className="skills-title netlify">
             <SiNetlify /><h4>Netlify</h4>
             <p>Effectively utilizes Netlify's cloud-based platform to deploy production ready front-end applications.</p>
@@ -117,13 +122,8 @@ function SkillsSection(props) {
           </div>      
           <div className="skills-title railway">
             <SiRailway /><h4>Railway</h4>
-            <p>Effectively utilizes Heroku's cloud-based platform to deploy production ready server-side applcations.</p>
+            <p>Effectively utilizes Railway's cloud-based platform to deploy full-stack production ready applcations.</p>
           </div>        
-            <div className="skills-title git">
-              <FaGitSquare/><h4>Git / Github</h4>
-              <p>Knowledge of Git workflow and file structures within applications and experience working with GitHub in collaboration with team members on large scale projects.
-              </p>
-            </div>
             <div className="skills-title responsive">
               <IoIosPhonePortrait/><h4>Responsive</h4>
               <p>Builds fully responsive websites for desktop, tablet and mobile devices.</p>
