@@ -3,7 +3,7 @@ import giphy1 from '../assets/video-diary-gif.gif';
 import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
-import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui, SiRailway } from 'react-icons/si'
+import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
 import { useEffect, useRef } from 'react';
@@ -54,10 +54,6 @@ function RecentWork(props) {
                                                 <li><SiExpress /></li>
                                                 <li><SiFirebase /></li>
                                             </ul>
-                                        </div>
-                                        <div className='deployed-on'>
-                                            <h3>Deployed with</h3>
-                                            <SiRailway/>
                                         </div>
                                     </div>
                                     <div className="project-links">
