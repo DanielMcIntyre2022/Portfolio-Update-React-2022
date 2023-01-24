@@ -3,6 +3,7 @@ import giphy1 from '../assets/video-diary-gif.gif';
 import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
+import giphy5 from '../assets/e-comm-gif.gif';
 import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
@@ -38,7 +39,7 @@ function RecentWork(props) {
                     <Slider {...settings}>
                     <div className="work-example-container">
                             <div className="work-example-pic">
-                                <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
+                                <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy5} alt="" /></a>
                                 <div className="work-example">
                                     <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
                                     <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. Made with TailwindCSS and Material UI CSS libraries. Utilizes Redux toolkit for state mangement and JSON web tokens (JWT) for user authentication and authorization.</p>
