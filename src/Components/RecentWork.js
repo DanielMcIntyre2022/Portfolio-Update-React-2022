@@ -39,7 +39,7 @@ function RecentWork(props) {
                     <Slider {...settings}>
                     <div className="work-example-container">
                             <div className="work-example-pic">
-                                <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy5} alt="" /></a>
+                                <a href="https://dans-e-commerce.up.railway.app/" target="_blank" rel="noreferrer"><img src={giphy5} alt="" /></a>
                                 <div className="work-example">
                                     <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
                                     <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. Made with TailwindCSS and Material UI CSS libraries. Utilizes Redux toolkit for state mangement and JSON web tokens (JWT) for user authentication and authorization.</p>
