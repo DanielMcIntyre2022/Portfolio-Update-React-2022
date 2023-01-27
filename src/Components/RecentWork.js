@@ -123,7 +123,7 @@ function RecentWork(props) {
                                 <a href="https://giphy-sentiment-39.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy2} alt="" /></a>
                                 <div className="work-example">
                                     <h1><a href="https://giphy-sentiment-39.netlify.app/" target="_blank" rel="noreferrer">Giphy Sentiment</a></h1>
-                                    <p>An application built in React, Giphy Sentiment utlizes the Giphy API and Firebase. Users can search for Giphys that matches their mood and save their desried gifs to view at a later time. Built with <a href="https://www.linkedin.com/in/kevzhang-dev/" target="_blank" rel="noreferrer">Kevin Zhang</a> and <a href="https://www.linkedin.com/in/david-benitez-878974236/" target="_blank" rel="noreferrer">David Benitez.</a></p>
+                                    <p>An application built in React, Giphy Sentiment utlizes the Giphy API and Firebase. Users can search for Giphys that matches their mood and save their desired gifs to view at a later time. Built with <a href="https://www.linkedin.com/in/kevzhang-dev/" target="_blank" rel="noreferrer">Kevin Zhang</a> and <a href="https://www.linkedin.com/in/david-benitez-878974236/" target="_blank" rel="noreferrer">David Benitez.</a></p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
