@@ -47,7 +47,7 @@ function RecentWork(props) {
                                         Utilizes Redux toolkit for state management  
                                         and JSON web tokens (JWT) for user authentication and authorization. </p>
                                         <p>Includes integration of Firebase database storage for product images and
-                                        Includes and Stripe API to handle user payments.</p>
+                                        includes and Stripe API to handle user payments.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
