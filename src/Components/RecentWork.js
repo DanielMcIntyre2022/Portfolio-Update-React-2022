@@ -43,11 +43,9 @@ function RecentWork(props) {
                                 <div className="work-example">
                                     <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
                                     <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. </p>
-                                        <p>Made with TailwindCSS and Material UI CSS libraries. 
-                                        Utilizes Redux toolkit for state management  
-                                        and JSON web tokens (JWT) for user authentication and authorization. </p>
-                                        <p>Includes integration of Firebase database storage for product images and
-                                        includes and Stripe API to handle user payments.</p>
+                                        <p>Made with Tailwind CSS and Material UI CSS frontend libraries and utilizes Redux toolkit for state management. </p>
+                                        <p>Created backend JSON REST API to fetch and create user/product data and JSON web tokens (JWT) to handle user authentication and authorization.</p>
+                                        <p>Includes integration of Firebase database storage for product images and includes and Stripe API to handle user payments.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
