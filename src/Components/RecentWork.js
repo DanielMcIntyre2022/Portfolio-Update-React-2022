@@ -44,9 +44,9 @@ function RecentWork(props) {
                                     <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">E-Commerce Web Application</a></h1>
                                     <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. </p>
                                         <p>Made with TailwindCSS and Material UI CSS libraries. 
-                                        Utilizes Redux toolkit for state mangement 
+                                        Utilizes Redux toolkit for state management  
                                         and JSON web tokens (JWT) for user authentication and authorization. </p>
-                                        <p>Includes intergration of Firebase database storage for product images and
+                                        <p>Includes integration of Firebase database storage for product images and
                                         Includes and Stripe API to handle user payments.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
@@ -73,7 +73,7 @@ function RecentWork(props) {
                             <div className="work-example-pic">
                                 <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
                                 <div className="work-example">
-                                    <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">Socailite</a></h1>
+                                    <h1><a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer">Socialite</a></h1>
                                     <p>A full-stack event planning application built with React in the front-end and Node JS/firebase in the back-end.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
