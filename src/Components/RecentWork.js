@@ -45,7 +45,7 @@ function RecentWork(props) {
                                     <p>A full-stack MongoDB, Express, React, Node (MERN) E-Commerce Web Application. </p>
                                         <p>Made with Tailwind CSS and Material UI CSS frontend libraries and utilizes Redux toolkit for state management. </p>
                                         <p>Created backend JSON REST API to fetch and create user/product data and JSON web tokens (JWT) to handle user authentication and authorization.</p>
-                                        <p>Includes integration of Firebase database storage for product images and includes and Stripe API to handle user payments.</p>
+                                        <p>Includes integration of Firebase database storage for product images and includes Stripe API to handle user payments.</p>
                                     <div className="made-with">
                                         <h3>Made With</h3>
                                         <div className="made-with-icons">
