@@ -70,7 +70,7 @@ function RecentWork(props) {
                                 </div>
                             </div>
                         </div>
-                    <div className="work-example-container">
+                    {/* <div className="work-example-container">
                             <div className="work-example-pic">
                                 <a href="https://dans-e-commerce.up.railway.app/" target="_blank" rel="noreferrer"><img src={giphy6} alt="" /></a>
                                 <div className="work-example">
@@ -93,7 +93,7 @@ function RecentWork(props) {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="work-example-container">
                             <div className="work-example-pic">
                                 <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
