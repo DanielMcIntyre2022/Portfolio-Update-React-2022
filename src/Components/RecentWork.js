@@ -4,7 +4,10 @@ import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
 import giphy5 from '../assets/e-comm-final-gify.gif';
-import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, SiTailwindcss, SiMaterialui, SiStripe } from 'react-icons/si'
+import giphy6 from '../assets/imdb.gif';
+import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, 
+    SiTailwindcss, SiMaterialui, SiStripe, SiNextdotjs } from 'react-icons/si'
+import { TbApi } from 'react-icons/tb';
 import { FaNodeJs } from 'react-icons/fa';
 import { ImHtmlFive } from 'react-icons/im';
 import { useEffect, useRef } from 'react';
@@ -62,6 +65,30 @@ function RecentWork(props) {
                                     <div className="project-links">
                                         <ul>
                                             <li><h3><a href="https://github.com/DanielMcIntyre2022/FINAL-E-Comm-Portfolio-Web-App" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div className="work-example-container">
+                            <div className="work-example-pic">
+                                <a href="https://dans-e-commerce.up.railway.app/" target="_blank" rel="noreferrer"><img src={giphy6} alt="" /></a>
+                                <div className="work-example">
+                                    <h1><a href=" https://next-js-13-imdb-app.vercel.app/" target="_blank" rel="noreferrer">IMDb App Web Application</a></h1>
+                                        <p>Utilizes the latest Next JS (v13), Tailwind CSS and TMDB API to fetch movie data. Users are also able to search for movies based on their keywords.</p>
+                                    <div className="made-with">
+                                        <h3>Made With</h3>
+                                        <div className="made-with-icons">
+                                            <ul>
+                                                <li><SiNextdotjs /></li>
+                                                <li><TbApi /></li>
+                                                <li><SiTailwindcss/></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div className="project-links">
+                                        <ul>
+                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/NextJS-13-imdb-app" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
                                         </ul>
                                     </div>
                                 </div>
