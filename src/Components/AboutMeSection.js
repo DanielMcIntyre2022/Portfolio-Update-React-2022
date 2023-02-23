@@ -1,5 +1,5 @@
 import headshot from '../assets/daniel-mcintyre-headshot.jpg';
-import resume from '../assets/Daniel_McIntyre_2023_Final_Resume.pdf';
+import resume from '../assets/DanielMcIntyre_2023_Resume.pdf';
 import { useEffect, useRef } from 'react';
 
 function AboutMeSection(props) {
