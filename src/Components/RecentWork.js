@@ -4,7 +4,6 @@ import giphy2 from '../assets/giphy-final-example.gif';
 import giphy3 from '../assets/movie-mood-gif.gif';
 import giphy4 from '../assets/social-lite-final-gif.gif';
 import giphy5 from '../assets/e-comm-final-gify.gif';
-import giphy6 from '../assets/imdb.gif';
 import { SiCss3, SiJavascript, SiSass, SiFirebase, SiReact, SiExpress, SiRedux, 
     SiTailwindcss, SiMaterialui, SiStripe, SiNextdotjs } from 'react-icons/si'
 import { TbApi } from 'react-icons/tb';
