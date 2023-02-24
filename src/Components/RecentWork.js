@@ -70,30 +70,6 @@ function RecentWork(props) {
                                 </div>
                             </div>
                         </div>
-                    {/* <div className="work-example-container">
-                            <div className="work-example-pic">
-                                <a href="https://dans-e-commerce.up.railway.app/" target="_blank" rel="noreferrer"><img src={giphy6} alt="" /></a>
-                                <div className="work-example">
-                                    <h1><a href=" https://next-js-13-imdb-app.vercel.app/" target="_blank" rel="noreferrer">IMDb App Web Application</a></h1>
-                                        <p>Utilizes the latest Next JS (v13), Tailwind CSS and TMDB API to fetch movie data. Users are also able to search for movies based on their keywords.</p>
-                                    <div className="made-with">
-                                        <h3>Made With</h3>
-                                        <div className="made-with-icons">
-                                            <ul>
-                                                <li><SiNextdotjs /></li>
-                                                <li><TbApi /></li>
-                                                <li><SiTailwindcss/></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div className="project-links">
-                                        <ul>
-                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/NextJS-13-imdb-app" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                         <div className="work-example-container">
                             <div className="work-example-pic">
                                 <a href="https://soicalite.netlify.app/" target="_blank" rel="noreferrer"><img src={giphy4} alt="" /></a>
