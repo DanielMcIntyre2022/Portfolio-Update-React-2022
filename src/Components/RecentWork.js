@@ -63,7 +63,7 @@ function RecentWork(props) {
                                     </div>
                                     <div className="project-links">
                                         <ul>
-                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/FINAL-E-Comm-Portfolio-Web-App" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
+                                            <li><h3><a href="https://github.com/DanielMcIntyre2022/MERN-E-Comm-Web-App" target="_blank" rel="noreferrer">Github Repository</a></h3></li>
                                         </ul>
                                     </div>
                                 </div>
